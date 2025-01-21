@@ -6,11 +6,11 @@ BMI = weight(KG)  / height2 (m2)    2  is squaredc
 
 function bmi (weight, height){
 
-    const bmiCal =  weight / height  ** 2  ;
+    const bmiCal = weight / ( weight *  height);
    
 
 return bmiCal
 
 }
 
-bmi(65, 1.8)  //20.0617
+bmi(65, 1.8) // 0.5555555555555556
