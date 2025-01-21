@@ -1,16 +1,18 @@
 /*
-
+Create a BMI calculator using JavaScript functions. 
 BMI = weight(KG)  / height2 (m2)    2  is squaredc
 
 */
 
 function bmi (weight, height){
 
-    const bmiCal = weight / ( weight *  height);
+
+    //power Math.pow(number.number to times it by which in our case is two)
+    const bmiCal = weight / Math.pow(height, 2) ;
    
 
-return bmiCal
+return Math.round(bmiCal)
 
 }
 
-bmi(65, 1.8) // 0.5555555555555556
+bmi(65, 1.8) // 20.0614
