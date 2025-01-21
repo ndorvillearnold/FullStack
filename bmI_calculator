@@ -4,6 +4,8 @@ BMI = weight(KG)  / height2 (m2)    2  is squaredc
 
 */
 
+//number 97 on video
+
 function bmi (weight, height){
 
 
