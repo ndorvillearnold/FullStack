@@ -2,4 +2,11 @@ let n = Math.random()
 
 n = n * 6 
 
-n = Math.floor(n)
+n = Math.floor(n) + 1
+// n = Math.ceil(n)
+
+
+//-----------------------------
+let loveScore = Math.random() * 100
+loveScore = Math.floor(loveScore)
+console.log(loveScore) 
