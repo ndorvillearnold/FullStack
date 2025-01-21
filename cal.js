@@ -1,5 +1,5 @@
 
-function getMilk(money){
+function getMilk(money){}
 
     let numberOfBottles = money / 1.5
     console.log(numberOfBottles);
