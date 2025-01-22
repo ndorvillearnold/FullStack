@@ -1,7 +1,6 @@
 function isLeap(year){
 
-    let regularYear = 365;
-    let leapYear = 366;
+  
 
 if(year % 4 === 0){
 
