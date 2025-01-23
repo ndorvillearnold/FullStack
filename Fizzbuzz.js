@@ -34,4 +34,4 @@ else{
 }
 
 
-// to run this in the council I put FizzBuzz() and ran it there
+fizzBuzz() // to run this in the council I put FizzBuzz() and ran it there
