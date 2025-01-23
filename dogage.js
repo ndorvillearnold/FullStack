@@ -1,11 +1,14 @@
 
 function lifeInWeeks(age){
 
-    let Remiaing = 90 - age;
-    let days = Remiaing * 365;
-    let weeks = Remiaing * 52;
-         let months =Remiaing * 12;
+    let remaining = 90 - age;
+    let days = remaining * 365;
+    let weeks = remaining * 52;
+    let months =remaining * 12;
+    return remaining
 
-console.log('you have ' + days + 'days ' + weeks + 'weeks and ' +  months +  ' to live' + Remiaing)
+console.log('you have ' + days + ' days ' + weeks + ' weeks and ' +  months +  ' to live ' + remaining)
+// LOGGED you have 28470 days 4056 weeks and 936 to live 78
+
 }
 lifeInWeeks(12);
