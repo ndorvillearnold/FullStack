@@ -1,3 +1,6 @@
+
+
+// I LOSTR jobs because of this simple problem :-) 
 let output = [];
 let count = 1;
 
@@ -22,5 +25,5 @@ else{
 }
 
    count++;
-    console.log(output);// just numbner
+    console.log(output);// just number
 }
