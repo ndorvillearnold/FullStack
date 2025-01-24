@@ -1,6 +1,9 @@
 
 
-//count++;  wasput in the position because its insode the while loo? 
+//count++     on line 30 ;  was put in the position because its insode the while loop? or should it come after? 
+// This was also something i struggled with knowing the position to put the count for the loop
+
+//tomorrow is definetly going over loops please
 //How do i know exactly where to put that
 
 
