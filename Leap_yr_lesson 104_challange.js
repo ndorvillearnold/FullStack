@@ -1,17 +1,12 @@
 function isLeap(year) {
-
     if (year % 4 === 0 || year % 400 === 0) {
-
-        return "leap year";
+      console.log(' leap year');
+    } else if (year % 100 === 0) {
+      cosole.log(' not a leap year');
+    } else {
+      console.log('def not a leap year');
     }
-    else {
-
-        return "not leap year";
-    }
-}
-
-console.log(isLeap(1990))
-console.log(isLeap(2008))
-console.log(isLeap(2012))
-
-
+  }
+  //test 2024, 2028, 2032, and 2036 are all leap years.
+  isLeap(2023);
+  
