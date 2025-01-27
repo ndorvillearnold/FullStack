@@ -5,7 +5,7 @@ let output = []
 
 function fizzBuzz(){
 
-    for(let count = 1; count <= 100 ;count++){ // Check if count is 100 or less, otherwise stop the loop
+    for(let count = 1; count <= 100 ;count){ // Check if count is 100 or less, otherwise stop the loop
 
        if (count % 3 === 0 && count % 5 === 0){ // If count is divisible by both 3 and 5
           output.push("FizBuzz"); // Add / push "FizzBuzz" to output
