@@ -1,18 +1,17 @@
 
-let output = [];
-let count = 1;
-
-function bottleChallenge(){
-
-while(count >= 99){
-console.log("99 nottles of bear on the wall")
+//WHILE check for a program in a certain state appose to For loop is for iteration
 
 
+function bottleChallenge() {
+  let output = [];
+  let count = 99;
 
-
+  while (count >= 0) {
+    return count;
+    console.log(output.push(count) + ' bottles of bear on the wall');
     count++;
   }
-console.log()
+  // console.log();
 }
 
-bottleChallenge()
+bottleChallenge();
