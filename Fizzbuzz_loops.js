@@ -31,7 +31,7 @@ function fizzBuzz(){
         }
         
            count++; //increment -  everytime we run it will add a  number for us to check  and notice its inside while loop
-            console.log(output);// just number
+           // console.log(output);// not ideal place to place consile. place it before the function ends
     }
     
          console.log(output);// just number
