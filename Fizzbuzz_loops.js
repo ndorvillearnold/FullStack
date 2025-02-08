@@ -9,14 +9,21 @@
 
 /* 
 
+Everything that has to do with a funciton should be in it ( )
+mattress outside
+ let output = [];
+let count = 1;
+:-)
+
 thats to stop code to 100 before it keeps going while(count <= 100){
 
 
 */
-let output = [];
-let count = 1;
 
 function fizzBuzz(){
+
+   let output = [];
+   let count = 1;
 
     while(count <= 100){ // Check if count is 100 or less, otherwise stop the loop
 
@@ -31,15 +38,20 @@ function fizzBuzz(){
         }
         
            count++; //increment -  everytime we run it will add a  number for us to check  and notice its inside while loop
+<<<<<<< HEAD
+            console.log(output);// I wont get anything
+=======
            // console.log(output);// not ideal place to place consile. place it before the function ends
+>>>>>>> fceb283eb01f639bf456f7bf9ef05077c3591247
     }
     
-         console.log(output);// just number
+         console.log(output);// value of output  // Its not inside while loop - 
 }
 
 fizzBuzz()
 
-/**
+
+/************************************************************************************************************************
  * On line resource to remember
  * count++ = You want to increment count at the end of each loop iteration, after the if/else block, but still inside the while loop. T
  * his ensures that you’re checking the next number for the next round of checks.

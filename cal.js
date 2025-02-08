@@ -5,3 +5,6 @@ function getMilk(money){
     console.log(numberOfBottles);
 }
 getMilk(5);  //returned 3.33 check
+
+
+
