@@ -1,17 +1,24 @@
 let numberOfDrumbuttons = document.querySelectorAll(".drum").length
+// let drumBtn = document.querySelectorAll(".drum")
+// console.log(numberOfDrumbuttons)  length of array 7
+// console.log(drumBtn)
 
 
-
+//stopping at 7 since its the length
 for (let i = 0; i < numberOfDrumbuttons; i++) {
 
+    // console.log(i)
+    let querySelectorArray = document.querySelectorAll(".drum")//array
+    // console.log(querySelectorArray[i])
 
+    //taking all the buttons and adding event listening
 
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-
+    //add event listener takes two arguments so ecample as higher order functions
+    querySelectorArray[i].addEventListener("click", function () {
 
 
         let buttoninnerHTML = this.innerHTML;
-
+        console.log(buttoninnerHTML);
 
 
         switch (buttoninnerHTML) {
