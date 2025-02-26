@@ -1,3 +1,27 @@
+I will be adding more FULL stack content here as I practice more skills
+
+# JavaScript Learning Guide
+
+
+
+A structured guide to learning **JavaScript fundamentals**, focusing on loops, operators, conditional statements, and handling random numbers.
+
+---
+
+## 📌 Topics Covered
+
+- 🔢 **Operators**
+- 🔗 **String Concatenation**
+- 🔄 **For Loops**
+- 🔁 **FizzBuzz Chal****Mathematical ****lenge**
+- 🔂 **While Loops**
+- 🛤️ **If-Else Statements**
+- 🎲 **Generating Random Numbers**
+
+---
+
+
+
 ## Learning About Event Listeners in JavaScript  
 
 Event listeners allow you to execute JavaScript code when a specific event occurs on an element.  
