@@ -13,7 +13,7 @@ A structured guide to learning **JavaScript fundamentals**, focusing on loops, o
 - 🔢 **Operators**
 - 🔗 **String Concatenation**
 - 🔄 **For Loops**
-- 🔁 **FizzBuzz Chal****Mathematical ****lenge**
+- 🔁 **FizzBuzz Challenge -  that I encountered in many interviews**
 - 🔂 **While Loops**
 - 🛤️ **If-Else Statements**
 - 🎲 **Generating Random Numbers**
